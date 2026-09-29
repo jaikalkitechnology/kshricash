@@ -3,7 +3,6 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { useState } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import logo from "../../public/logo-dark.png";
 
 const PublicNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,9 +41,9 @@ const PublicNavbar = () => {
 
           {/* Logo + Bharat Connect mnemonic */}
           <Link to="/" className="flex min-w-0 items-center gap-3">
-            {/* Wide wordmark: keep its aspect ratio. logo-dark.png has dark "Kshri" text for the light navbar */}
+            {/* Horizontal brand logo for light backgrounds; keeps its aspect ratio */}
             <img
-              src={logo}
+              src="/brand/header-logo-light.svg"
               alt="Kshricash Logo"
               className="h-10 w-auto max-w-[60vw] shrink-0 object-contain sm:h-12 lg:h-14"
             />

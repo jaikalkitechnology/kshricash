@@ -19,7 +19,6 @@ import {
   Shield,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import logo from "@/assets/logo.png";
 
 interface DashboardLayoutProps {
   children: ReactNode;
@@ -67,8 +66,8 @@ export default function DashboardLayout({
       {/* Logo */}
       <div className="flex items-center space-x-3">
         <img
-          src={logo}
-          alt="Neo Payment Logo"
+          src="/brand/header-logo-light.svg"
+          alt="Kshricash Logo"
           className="h-16 w-auto"
         />
         <div className="h-8 w-px bg-gray-200"></div>
@@ -182,8 +181,8 @@ export default function DashboardLayout({
           <div className="flex items-center justify-between p-4 border-b" style={{ borderColor: 'rgba(255, 255, 255, 0.1)' }}>
             <div className="flex items-center gap-3">
               <img
-                src={logo}
-                alt="Neo Payment Logo"
+                src="/brand/header-logo-dark.svg"
+                alt="Kshricash Logo"
                 className="h-8 w-auto"
               />
               <h2 className="font-semibold text-white">Menu</h2>
