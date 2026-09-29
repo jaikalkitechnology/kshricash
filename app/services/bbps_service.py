@@ -1,5 +1,5 @@
 """
-VasuPay - BBPS Service (Airtel Payments Bank / Bharat Connect)
+Kshricash - BBPS Service (Airtel Payments Bank / Bharat Connect)
 ================================================================
 Ports the validated UAT suite (bbps_api_docs/bbps_suit_v2.py) into a
 reusable backend client.

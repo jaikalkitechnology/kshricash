@@ -1,5 +1,5 @@
 """
-VasuPay - BBPS Routes (Airtel Payments Bank / Bharat Connect)
+Kshricash - BBPS Routes (Airtel Payments Bank / Bharat Connect)
 Bill payment services ported from the validated UAT suite.
 
 Flow: biller-categories -> billers -> ccf/bill-fetch -> bill-pay -> inquiry
@@ -299,7 +299,7 @@ def _record_service_txn(db, user, wallet, debit_txn, payload, amount, before):
         return None
 
 
-@router.post("/bill/pay", summary="Pay a bill (debits the VasuPay wallet)")
+@router.post("/bill/pay", summary="Pay a bill (debits the Kshricash wallet)")
 def bill_pay(
     payload: BillPaymentRequest,
     request: Request,

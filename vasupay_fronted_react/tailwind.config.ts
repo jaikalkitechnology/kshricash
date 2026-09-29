@@ -20,7 +20,7 @@ export default {
         mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
       },
       colors: {
-        /* === VasuPay brand palette (designed/vasu-pay-design.html) === */
+        /* === Kshricash brand palette (designed/vasu-pay-design.html) === */
         vasu: {
           deep: "#0A3F3A",
           teal: "#0E5951",

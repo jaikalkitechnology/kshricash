@@ -1,5 +1,5 @@
 """
-VasuPay - Core Security Module
+Kshricash - Core Security Module
 Password hashing, JWT tokens, and security utilities
 No Redis dependency - uses database for token management
 """

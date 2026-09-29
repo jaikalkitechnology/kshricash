@@ -1,5 +1,5 @@
 """
-VasuPay - BBPS Schemas
+Kshricash - BBPS Schemas
 Request/response models for the Airtel Payments Bank / Bharat Connect BBPS API.
 These also serve as the OpenAPI documentation (/docs).
 """
@@ -54,7 +54,7 @@ class BillPaymentRequest(BaseModel):
     customer_name: Optional[str] = Field(default=None, examples=["Test Customer"])
     payment_mode: str = Field(default="WALLET", examples=["WALLET"])
     payment_mode_info: Optional[str] = Field(default=None, examples=["VasuPayWallet|9876543210"])
-    from_wallet: bool = Field(default=True, description="Debit the VasuPay wallet for this payment")
+    from_wallet: bool = Field(default=True, description="Debit the Kshricash wallet for this payment")
     service: Optional[str] = Field(default=None, description="Service label for history, e.g. 'Mobile Prepaid'")
     notify_sms: bool = Field(default=False, description="Send an SMS confirmation on success/initiated")
     notify_mobile: Optional[str] = Field(default=None, description="Mobile number to notify (defaults to mobile_number)")

@@ -1,5 +1,5 @@
 """
-VasuPay - Integration Audit Service
+Kshricash - Integration Audit Service
 ===================================
 Best-effort audit logging for external integrations and sensitive operations
 (BBPS / OTP / WALLET / SMS). Writes to the `integration_audit_logs` table.

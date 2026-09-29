@@ -1,5 +1,5 @@
 """
-VasuPay - Entity Hierarchy Routes
+Kshricash - Entity Hierarchy Routes
 Hierarchy-aware API: dashboard, create/manage children, KYC, services, wallet, transactions.
 Works for ALL non-retailer entity types (superadmin uses /admin routes instead).
 """

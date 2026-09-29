@@ -1,5 +1,5 @@
 """
-VasuPay - Wallet Routes
+Kshricash - Wallet Routes
 Wallet balance, fund loading, and transfer operations
 """
 

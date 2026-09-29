@@ -16,7 +16,7 @@ const RefundPolicy = () => {
               Cancellation & Refund Policy
             </h1>
             <p className="text-white text-lg">
-              Issued by Paramvasu Technologies Private Limited (operating as "VasuPay")
+              Issued by Paramvasu Technologies Private Limited (operating as "Kshricash")
             </p>
 
           </div>
@@ -33,7 +33,7 @@ const RefundPolicy = () => {
             <div className="border-b pb-6">
               <h2 className="text-xl font-semibold text-foreground mb-3">1. General</h2>
               <p className="text-muted-foreground">
-                All transactions processed through VasuPay are executed in real-time
+                All transactions processed through Kshricash are executed in real-time
                 and are generally irreversible once completed.
               </p>
             </div>
@@ -81,7 +81,7 @@ const RefundPolicy = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="inline-block w-1.5 h-1.5 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  System or processing errors attributable to VasuPay
+                  System or processing errors attributable to Kshricash
                 </li>
               </ul>
             </div>

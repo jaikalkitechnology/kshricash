@@ -1,5 +1,5 @@
 """
-VasuPay - Authentication Routes
+Kshricash - Authentication Routes
 Register, Login, Logout, Forgot Password, Reset Password, Change Password, Refresh Token
 """
 
@@ -245,7 +245,7 @@ def forgot_password(request: ForgotPasswordRequest, db: Session = Depends(get_db
     # TODO: Send reset token via email and/or OTP via SMS
     # In production, integrate with SMS/email providers:
     #   - Email: send_email(user.email, "Password Reset", f"Your reset token: {reset_token}")
-    #   - SMS: send_sms(user.phone, f"Your VasuPay OTP is {otp}")
+    #   - SMS: send_sms(user.phone, f"Your Kshricash OTP is {otp}")
 
     logger.info(f"Password reset requested for user_id={user.id}")
 

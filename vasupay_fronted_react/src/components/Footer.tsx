@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <img src={logo} alt="VasuPay Logo" className="rounded-lg" />
+              <img src={logo} alt="Kshricash Logo" className="rounded-lg" />
             </div>
             <p className="text-background/70 text-sm mb-4">
               Digital Seva for Every Bharat Bill

@@ -34,7 +34,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-hero flex flex-col items-center justify-center p-4">
       <div className="text-center mb-12">
         <h1 className="text-5xl md:text-6xl font-bold mb-4 text-primary-foreground drop-shadow-lg">
-          VasuPay
+          Kshricash
         </h1>
         <p className="text-xl md:text-2xl text-primary-foreground/90 font-medium">
           Digital Seva for Every Bharat Bill

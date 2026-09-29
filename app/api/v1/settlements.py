@@ -1,5 +1,5 @@
 """
-VasuPay - Settlement Routes
+Kshricash - Settlement Routes
 Settlement requests and status tracking
 """
 

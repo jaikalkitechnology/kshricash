@@ -1,5 +1,5 @@
 """
-VasuPay - Integration Audit Log API (admin)
+Kshricash - Integration Audit Log API (admin)
 ==========================================
 Read-only access to the `integration_audit_logs` table for the admin panel:
 list + filter, per-channel/status summary counts, and CSV/JSON export for

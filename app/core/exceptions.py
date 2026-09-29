@@ -1,5 +1,5 @@
 """
-VasuPay - Custom Exceptions
+Kshricash - Custom Exceptions
 Centralized exception definitions for better error handling
 """
 

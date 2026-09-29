@@ -1,5 +1,5 @@
 """
-VasuPay - Email Service
+Kshricash - Email Service
 Email sending functionality for authentication and notifications
 """
 
@@ -79,17 +79,17 @@ def get_password_reset_email_template(user_name: str, reset_link: str) -> str:
             </div>
             <div class="content">
                 <p>Hello {user_name},</p>
-                <p>We received a request to reset your password for your VasuPay account.</p>
+                <p>We received a request to reset your password for your Kshricash account.</p>
                 <p>Click the button below to reset your password:</p>
                 <a href="{reset_link}" class="button">Reset Password</a>
                 <p>Or copy and paste this link into your browser:</p>
                 <p style="word-break: break-all;">{reset_link}</p>
                 <p><strong>This link will expire in 1 hour.</strong></p>
                 <p>If you didn't request this password reset, please ignore this email or contact support if you have concerns.</p>
-                <p>Thank you,<br>VasuPay Team</p>
+                <p>Thank you,<br>Kshricash Team</p>
             </div>
             <div class="footer">
-                <p>&copy; {datetime.now().year} VasuPay. All rights reserved.</p>
+                <p>&copy; {datetime.now().year} Kshricash. All rights reserved.</p>
                 <p>This is an automated email. Please do not reply.</p>
             </div>
         </div>
@@ -158,17 +158,17 @@ def get_email_verification_template(user_name: str, verification_link: str) -> s
             </div>
             <div class="content">
                 <p>Hello {user_name},</p>
-                <p>Welcome to VasuPay! Please verify your email address to complete your registration.</p>
+                <p>Welcome to Kshricash! Please verify your email address to complete your registration.</p>
                 <p>Click the button below to verify your email:</p>
                 <a href="{verification_link}" class="button">Verify Email</a>
                 <p>Or copy and paste this link into your browser:</p>
                 <p style="word-break: break-all;">{verification_link}</p>
                 <p><strong>This link will expire in 7 days.</strong></p>
-                <p>If you didn't create an account with VasuPay, please ignore this email.</p>
-                <p>Thank you,<br>VasuPay Team</p>
+                <p>If you didn't create an account with Kshricash, please ignore this email.</p>
+                <p>Thank you,<br>Kshricash Team</p>
             </div>
             <div class="footer">
-                <p>&copy; {datetime.now().year} VasuPay. All rights reserved.</p>
+                <p>&copy; {datetime.now().year} Kshricash. All rights reserved.</p>
                 <p>This is an automated email. Please do not reply.</p>
             </div>
         </div>
@@ -229,10 +229,10 @@ def get_password_changed_template(user_name: str) -> str:
                 <p>Hello {user_name},</p>
                 <p>Your password has been successfully changed.</p>
                 <p><strong>If you did not make this change, please contact our support team immediately.</strong></p>
-                <p>Thank you,<br>VasuPay Team</p>
+                <p>Thank you,<br>Kshricash Team</p>
             </div>
             <div class="footer">
-                <p>&copy; {datetime.now().year} VasuPay. All rights reserved.</p>
+                <p>&copy; {datetime.now().year} Kshricash. All rights reserved.</p>
                 <p>This is an automated email. Please do not reply.</p>
             </div>
         </div>
@@ -297,12 +297,12 @@ def get_welcome_email_template(user_name: str, login_link: str) -> str:
     <body>
         <div class="container">
             <div class="header">
-                <h1>Welcome to VasuPay!</h1>
+                <h1>Welcome to Kshricash!</h1>
             </div>
             <div class="content">
                 <p>Hello {user_name},</p>
                 <p>Your account has been successfully created and verified!</p>
-                <p>You can now access all the features of VasuPay:</p>
+                <p>You can now access all the features of Kshricash:</p>
                 <ul>
                     <li>BBPS Bill Payments</li>
                     <li>AEPS Services</li>
@@ -312,11 +312,11 @@ def get_welcome_email_template(user_name: str, login_link: str) -> str:
                 </ul>
                 <p>Click the button below to login:</p>
                 <a href="{login_link}" class="button">Login Now</a>
-                <p>Thank you for choosing VasuPay!</p>
-                <p>Best regards,<br>VasuPay Team</p>
+                <p>Thank you for choosing Kshricash!</p>
+                <p>Best regards,<br>Kshricash Team</p>
             </div>
             <div class="footer">
-                <p>&copy; {datetime.now().year} VasuPay. All rights reserved.</p>
+                <p>&copy; {datetime.now().year} Kshricash. All rights reserved.</p>
                 <p>This is an automated email. Please do not reply.</p>
             </div>
         </div>
@@ -420,7 +420,7 @@ class EmailService:
 
         return self.send_email(
             to_email=to_email,
-            subject="Reset Your VasuPay Password",
+            subject="Reset Your Kshricash Password",
             html_content=html_content
         )
 
@@ -448,7 +448,7 @@ class EmailService:
 
         return self.send_email(
             to_email=to_email,
-            subject="Verify Your VasuPay Email",
+            subject="Verify Your Kshricash Email",
             html_content=html_content
         )
 
@@ -471,7 +471,7 @@ class EmailService:
 
         return self.send_email(
             to_email=to_email,
-            subject="Your VasuPay Password Was Changed",
+            subject="Your Kshricash Password Was Changed",
             html_content=html_content
         )
 
@@ -497,7 +497,7 @@ class EmailService:
 
         return self.send_email(
             to_email=to_email,
-            subject="Welcome to VasuPay!",
+            subject="Welcome to Kshricash!",
             html_content=html_content
         )
 

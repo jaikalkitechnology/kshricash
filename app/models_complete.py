@@ -1,5 +1,5 @@
 """
-VasuPay - Complete Production Database Models
+Kshricash - Complete Production Database Models
 Comprehensive SQLAlchemy Models with All Features
 
 Version: 2.0

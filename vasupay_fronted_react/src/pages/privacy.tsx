@@ -14,7 +14,7 @@ const PrivacyPolicy = () => {
               Privacy Policy
             </h1>
             <p className="text-white text-lg">
-              Issued by Paramvasu Technologies Private Limited (operating as "VasuPay")
+              Issued by Paramvasu Technologies Private Limited (operating as "Kshricash")
             </p>
 
             <p className="text-white text-lg">
@@ -130,7 +130,7 @@ const PrivacyPolicy = () => {
             <div className="border-b pb-6">
               <h3 className="text-lg font-semibold text-foreground mb-3">7. AML / CFT Compliance</h3>
               <p className="text-muted-foreground">
-                VasuPay complies with the Prevention of Money Laundering Act (PMLA), 2002,
+                Kshricash complies with the Prevention of Money Laundering Act (PMLA), 2002,
                 RBI KYC Master Directions and FIU-IND reporting obligations.
               </p>
             </div>
@@ -162,7 +162,7 @@ const PrivacyPolicy = () => {
             <div className="pb-2">
               <h3 className="text-lg font-semibold text-foreground mb-3">9. Regulatory Cooperation</h3>
               <p className="text-muted-foreground">
-                VasuPay shall cooperate with RBI, NPCI, BBPS, partner banks, enforcement agencies,
+                Kshricash shall cooperate with RBI, NPCI, BBPS, partner banks, enforcement agencies,
                 and other statutory bodies for compliance, investigations and regulatory reporting.
               </p>
             </div>

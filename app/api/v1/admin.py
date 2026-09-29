@@ -1,5 +1,5 @@
 """
-VasuPay - Admin Routes
+Kshricash - Admin Routes
 Complete superadmin dashboard API: users, wallets, transactions,
 commissions, settlements, KYC, tickets, audit logs
 """

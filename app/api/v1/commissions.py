@@ -1,5 +1,5 @@
 """
-VasuPay - Commission Routes
+Kshricash - Commission Routes
 Commission structures and earnings
 """
 

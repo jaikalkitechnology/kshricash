@@ -1,5 +1,5 @@
 """
-VasuPay - Authentication CRUD Operations
+Kshricash - Authentication CRUD Operations
 Database operations for authentication (MySQL, no Redis)
 """
 import uuid

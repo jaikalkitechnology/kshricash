@@ -1,5 +1,5 @@
 """
-VasuPay - Database Configuration and Connection Management
+Kshricash - Database Configuration and Connection Management
 """
 
 from sqlalchemy import create_engine, event, pool, text

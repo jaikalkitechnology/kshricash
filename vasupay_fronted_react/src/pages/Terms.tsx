@@ -14,7 +14,7 @@ const Terms = () => {
               Terms & Conditions
             </h1>
             <p className="text-white text-lg">
-              Please read these terms carefully before using VasuPay services.
+              Please read these terms carefully before using Kshricash services.
             </p>
             <div className="mt-4 text-sm text-white">
               Last Updated: 10 December 2025
@@ -44,7 +44,7 @@ const Terms = () => {
                 agreement between
                 <strong> Paramvasu Technologies Private Limited</strong>,
                 operating under the brand name
-                <strong> VasuPay</strong> (hereinafter "Company", "VasuPay", "We",
+                <strong> Kshricash</strong> (hereinafter "Company", "Kshricash", "We",
                 "Us", "Our"), and any individual, customer, agent, merchant or
                 business entity ("User", "You", "Your") accessing or using the
                 platform.
@@ -62,9 +62,9 @@ const Terms = () => {
             <div className="space-y-8">
               {[
                 {
-                  title: "1. Regulatory Status and Role of VasuPay",
+                  title: "1. Regulatory Status and Role of Kshricash",
                   items: [
-                    "VasuPay acts solely as a Technology Service Provider (TSP).",
+                    "Kshricash acts solely as a Technology Service Provider (TSP).",
                     "We do not provide banking services or issue prepaid instruments.",
                     "All regulated services such as AEPS, BBPS wallet services are provided through RBI-authorised entities.",
                     "Our role is limited to technology infrastructure, routing, reporting, reconciliation, and support.",
@@ -86,13 +86,13 @@ const Terms = () => {
                   items: [
                     "Users must be 18+ and legally competent.",
                     "RBI-mandated KYC is compulsory.",
-                    "VasuPay may accept, reject or terminate onboarding without reason.",
+                    "Kshricash may accept, reject or terminate onboarding without reason.",
                     "Submitting forged documents may result in legal action.",
                   ],
                 },
                 {
                   title: "4. Services",
-                  content: "VasuPay facilitates the following:",
+                  content: "Kshricash facilitates the following:",
                   items: [
                     "Aadhaar Enabled Payment System (AEPS)",
                     "Bharat Bill Payment System (BBPS)",
@@ -105,7 +105,7 @@ const Terms = () => {
                   items: [
                     "AEPS requires Aadhaar-based authentication.",
                     "Success depends on UIDAI, NPCI, and bank servers.",
-                    "VasuPay is not liable for biometric mismatches or downtimes.",
+                    "Kshricash is not liable for biometric mismatches or downtimes.",
                     "Charges become non-refundable after authentication attempt.",
                   ],
                 },
@@ -138,12 +138,12 @@ const Terms = () => {
                 {
                   title: "9. Indemnification",
                   text:
-                    "Users agree to indemnify and hold harmless VasuPay, its employees and partners from claims arising due to misuse, fraud, law violations or breach of these Terms.",
+                    "Users agree to indemnify and hold harmless Kshricash, its employees and partners from claims arising due to misuse, fraud, law violations or breach of these Terms.",
                 },
                 {
                   title: "10. Limitation of Liability",
                   text:
-                    "VasuPay shall not be liable for indirect, incidental, or consequential damages. Total liability shall not exceed fees paid by the User in the last 12 months.",
+                    "Kshricash shall not be liable for indirect, incidental, or consequential damages. Total liability shall not exceed fees paid by the User in the last 12 months.",
                 },
                 {
                   title: "11. Force Majeure",
@@ -158,12 +158,12 @@ const Terms = () => {
                 {
                   title: "13. Suspension and Termination",
                   text:
-                    "VasuPay may terminate or suspend access immediately in cases of fraud or regulatory breach.",
+                    "Kshricash may terminate or suspend access immediately in cases of fraud or regulatory breach.",
                 },
                 {
                   title: "14. Severability, Waiver and Assignment",
                   text:
-                    "Invalid clauses do not affect the remaining Terms. VasuPay may assign rights without notice.",
+                    "Invalid clauses do not affect the remaining Terms. Kshricash may assign rights without notice.",
                 },
                 {
                   title: "15. Governing Law and Jurisdiction",

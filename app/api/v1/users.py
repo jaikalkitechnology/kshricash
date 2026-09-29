@@ -1,5 +1,5 @@
 """
-VasuPay - User Routes
+Kshricash - User Routes
 User profile management
 """
 

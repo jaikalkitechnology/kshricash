@@ -1,6 +1,6 @@
 
 """
-VasuPay - Configuration Management
+Kshricash - Configuration Management
 Centralized configuration using Pydantic Settings
 """
 
@@ -24,7 +24,7 @@ class Settings(BaseSettings):
     # APPLICATION SETTINGS
     # =====================================================
 
-    APP_NAME: str = "VasuPay API"
+    APP_NAME: str = "Kshricash API"
     APP_VERSION: str = "1.0.0"
     APP_DESCRIPTION: str = "Multi-Tenant Financial Services Platform"
     ENVIRONMENT: str = Field(default="development")
@@ -181,7 +181,7 @@ class Settings(BaseSettings):
     SMTP_USER: Optional[str] = Field(default=None)
     SMTP_PASSWORD: Optional[str] = Field(default=None)
     SMTP_FROM_EMAIL: str = Field(default="noreply@vasupay.com")
-    SMTP_FROM_NAME: str = "VasuPay"
+    SMTP_FROM_NAME: str = "Kshricash"
     SMTP_TLS: bool = True
 
     # SendGrid
@@ -284,7 +284,7 @@ class Settings(BaseSettings):
     SMS_PAYMENT_TEMPLATE_ID: str = "1277178705053646680"
     SMS_PAYMENT_TEMPLATE: str = (
         "Dear User, Your payment of Rs. {amount} to {biller} was successful. "
-        "Transaction ID: {txn_id} - VasuPay"
+        "Transaction ID: {txn_id} - Kshricash"
     )
 
     # DMT Provider

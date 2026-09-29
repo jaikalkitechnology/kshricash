@@ -1,5 +1,5 @@
 """
-VasuPay - Authentication Dependencies
+Kshricash - Authentication Dependencies
 FastAPI dependencies for authentication and authorization
 """
 

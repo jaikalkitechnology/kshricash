@@ -1,5 +1,5 @@
 """
-VasuPay - FastAPI Application Entry Point
+Kshricash - FastAPI Application Entry Point
 """
 
 import logging
@@ -182,7 +182,7 @@ def on_startup():
 @app.on_event("shutdown")
 def on_shutdown():
     """Run on application shutdown."""
-    logger.info("Shutting down VasuPay API")
+    logger.info("Shutting down Kshricash API")
 
 
 # =====================================================

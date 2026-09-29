@@ -1,4 +1,4 @@
--- VasuPay — integration_audit_logs table (MySQL / MariaDB)
+-- Kshricash — integration_audit_logs table (MySQL / MariaDB)
 -- Fallback DDL for DBAs when the app's DB user cannot create the table itself.
 -- Matches app/models_complete.py::IntegrationAuditLog. Safe to re-run.
 

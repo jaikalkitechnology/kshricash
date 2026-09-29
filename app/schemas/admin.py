@@ -1,5 +1,5 @@
 """
-VasuPay - Admin Schemas
+Kshricash - Admin Schemas
 Pydantic models for admin dashboard request/response validation
 """
 
