@@ -41,16 +41,19 @@ const PublicNavbar = () => {
         <div className="flex justify-between items-center h-16">
 
           {/* Logo + Bharat Connect mnemonic */}
-          <Link to="/" className="flex items-center gap-3">
-            <img
-              src={logo}
-              alt="VasuPay Logo"
-              className="h-20 w-20 rounded-lg bg-vasu-deep"
-            />
+          <Link to="/" className="flex min-w-0 items-center gap-3">
+            {/* Wide wordmark: keep its aspect ratio; dark tile keeps the light "Kshri" text legible */}
+            <span className="flex shrink-0 items-center rounded-lg bg-vasu-deep px-2 py-1 sm:px-3">
+              <img
+                src={logo}
+                alt="Kshricash Logo"
+                className="h-9 w-auto max-w-[55vw] object-contain sm:h-11 lg:h-12"
+              />
+            </span>
             <img
               src="/bharat-connect/logo.svg"
               alt="Bharat Connect"
-              className="hidden h-8 w-auto sm:block"
+              className="hidden h-8 w-auto shrink-0 sm:block"
             />
           </Link>
 
