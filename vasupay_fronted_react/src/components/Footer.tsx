@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone, Facebook, Instagram, Twitter } from "lucide-react";
-import logo from '../../public/logo.png';
 
 const Footer = () => {
   return (
@@ -10,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <img src={logo} alt="Kshricash Logo" className="rounded-lg" />
+              <img src="/brand/header-logo-dark.svg" alt="Kshricash Logo" className="h-12 w-auto" />
             </div>
             <p className="text-background/70 text-sm mb-4">
               Digital Seva for Every Bharat Bill

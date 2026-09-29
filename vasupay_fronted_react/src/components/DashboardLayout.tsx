@@ -12,7 +12,6 @@ import {
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 import { useAuth } from "@/contexts/AuthContext";
 import { cn } from "@/lib/utils";
-import logo from "../../public/logo.png";
 
 interface DashboardLayoutProps {
   children: ReactNode;
@@ -23,27 +22,14 @@ interface DashboardLayoutProps {
   bottomNav?: ReactNode;
 }
 
-/** Brand logo tile + wordmark. `tone` controls text color for cream vs teal backgrounds. */
+/** Brand logo. `tone` picks the variant for cream ("dark") vs teal ("light") backgrounds. */
 function Brand({ tone = "dark" }: { tone?: "dark" | "light" }) {
   return (
-    <div className="flex items-center gap-2.5">
-      <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-white shadow-sm ring-1 ring-black/5">
-        <img src={logo} alt="Kshricash" className="h-7 w-7 rounded-md object-contain" />
-      </div>
-      <div className="leading-tight">
-        <span className={cn("font-display text-lg font-semibold", tone === "light" ? "text-cream" : "text-vasu-deep")}>
-          Kshri<span className="text-saffron">cash</span>
-        </span>
-        <span
-          className={cn(
-            "block font-mono text-[8px] uppercase tracking-[0.22em]",
-            tone === "light" ? "text-vasu-mint" : "text-stone"
-          )}
-        >
-          Digital Seva
-        </span>
-      </div>
-    </div>
+    <img
+      src={tone === "light" ? "/brand/sidebar-logo-dark.svg" : "/brand/sidebar-logo-light.svg"}
+      alt="Kshricash"
+      className="h-9 w-auto"
+    />
   );
 }
 

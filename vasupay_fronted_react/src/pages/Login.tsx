@@ -28,7 +28,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import logo from "../../public/logo.png";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -199,9 +198,9 @@ const Login = () => {
         <div className="text-center mb-8">
           <Link to="/">
             <img
-              src={logo}
+              src="/brand/login-logo-light.svg"
               alt="Kshricash Logo"
-              className="mx-auto bg-vasu-deep rounded-[10%]"
+              className="mx-auto h-28 w-auto sm:h-32"
             />
           </Link>
           <p className="text-gray-600 mt-2">Simple & Secure Payments</p>
