@@ -200,7 +200,7 @@ const Login = () => {
           <Link to="/">
             <img
               src={logo}
-              alt="VasuPay Logo"
+              alt="Kshricash Logo"
               className="mx-auto bg-vasu-deep rounded-[10%]"
             />
           </Link>
@@ -458,7 +458,7 @@ const Login = () => {
 
         <p className="text-center text-gray-500 text-xs mt-8">
           Secure & encrypted platform &bull; &copy;{" "}
-          {new Date().getFullYear()} VasuPay
+          {new Date().getFullYear()} Kshricash
         </p>
       </div>
     </div>

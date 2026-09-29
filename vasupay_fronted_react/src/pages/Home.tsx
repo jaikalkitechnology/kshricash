@@ -240,12 +240,12 @@ const Home = () => {
       <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
         Start Your Digital Business
         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/70">
-          With VasuPay
+          With Kshricash
         </span>
       </h2>
       
       <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-        Become a VasuPay agent and offer 100+ services to your customers with fixed commission on every transaction
+        Become a Kshricash agent and offer 100+ services to your customers with fixed commission on every transaction
       </p>
     </div>
 
@@ -334,7 +334,7 @@ const Home = () => {
                 Build Your Fintech Empire
               </h2>
               <p className="text-muted-foreground text-lg mb-8">
-                Partner with VasuPay to create your own network of agencies.
+                Partner with Kshricash to create your own network of agencies.
                 Map unlimited agents, manage their services, and earn commission from every transaction they process.
               </p>
               <div className="space-y-4">
@@ -352,7 +352,7 @@ const Home = () => {
               </div>
             </div>
             <div className="bg-gradient-to-br from-accent via-accent to-accent-dark rounded-3xl p-8 text-accent-foreground">
-              <h3 className="text-2xl font-bold mb-6">Why Partner with VasuPay?</h3>
+              <h3 className="text-2xl font-bold mb-6">Why Partner with Kshricash?</h3>
               <ul className="space-y-4">
                 {[
                   "Zero setup cost to start",
@@ -416,10 +416,10 @@ const Home = () => {
             </div>
             <div className="order-1 lg:order-2">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                About VasuPay
+                About Kshricash
               </h2>
               <p className="text-muted-foreground mb-4 text-lg">
-                VasuPay is a flagship fintech service of <strong className="text-foreground">Paramvasu Technologies Pvt. Ltd.</strong>,
+                Kshricash is a flagship fintech service of <strong className="text-foreground">Paramvasu Technologies Pvt. Ltd.</strong>,
                 building India's largest digital financial services ecosystem.
               </p>
               <p className="text-muted-foreground mb-4">
@@ -503,7 +503,7 @@ const Home = () => {
             Ready to Transform Your Financial Journey?
           </h2>
           <p className="text-primary-foreground/90 mb-8 text-lg max-w-2xl mx-auto">
-            Join thousands of users, partners, and agents who trust VasuPay for their digital financial needs.
+            Join thousands of users, partners, and agents who trust Kshricash for their digital financial needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

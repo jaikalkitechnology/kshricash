@@ -1,5 +1,5 @@
 """
-VasuPay - KYC Routes
+Kshricash - KYC Routes
 Entity self-KYC submission via file uploads.
 All entity types can submit their own KYC documents using the UserKYC model.
 Approval is handled by parent entities via /entity/kyc/* endpoints,

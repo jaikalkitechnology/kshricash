@@ -1,5 +1,5 @@
 """
-VasuPay - Service Routes
+Kshricash - Service Routes
 BBPS, AEPS, DMT, Recharge service operations
 """
 

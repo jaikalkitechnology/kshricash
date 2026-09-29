@@ -1,5 +1,5 @@
 """
-VasuPay - Transaction Routes
+Kshricash - Transaction Routes
 Service transactions (BBPS, AEPS, DMT, Recharge)
 """
 

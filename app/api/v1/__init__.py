@@ -1,5 +1,5 @@
 """
-VasuPay - API v1 Router Registry
+Kshricash - API v1 Router Registry
 """
 
 from app.api.v1.auth import router as auth_router

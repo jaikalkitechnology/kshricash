@@ -28,11 +28,11 @@ function Brand({ tone = "dark" }: { tone?: "dark" | "light" }) {
   return (
     <div className="flex items-center gap-2.5">
       <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-white shadow-sm ring-1 ring-black/5">
-        <img src={logo} alt="VasuPay" className="h-7 w-7 rounded-md object-contain" />
+        <img src={logo} alt="Kshricash" className="h-7 w-7 rounded-md object-contain" />
       </div>
       <div className="leading-tight">
         <span className={cn("font-display text-lg font-semibold", tone === "light" ? "text-cream" : "text-vasu-deep")}>
-          Vasu<span className="text-saffron">Pay</span>
+          Kshri<span className="text-saffron">cash</span>
         </span>
         <span
           className={cn(

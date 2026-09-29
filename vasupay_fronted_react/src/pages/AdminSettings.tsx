@@ -52,7 +52,7 @@ const AdminSettings = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="space-y-2">
                 <Label>Platform Name</Label>
-                <Input defaultValue="VasuPay" />
+                <Input defaultValue="Kshricash" />
               </div>
               <div className="space-y-2">
                 <Label>Support Email</Label>

@@ -1,5 +1,5 @@
 """
-VasuPay - Entity Hierarchy CRUD Operations
+Kshricash - Entity Hierarchy CRUD Operations
 Hierarchy-aware operations: create children, list children, dashboard stats,
 KYC approval per hierarchy, service enablement.
 """

@@ -1,5 +1,5 @@
 """
-VasuPay - Authentication Schemas
+Kshricash - Authentication Schemas
 Pydantic models for authentication request/response validation
 """
 

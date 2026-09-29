@@ -1,5 +1,5 @@
 """
-VasuPay - Admin CRUD Operations
+Kshricash - Admin CRUD Operations
 Database operations for superadmin dashboard
 """
 

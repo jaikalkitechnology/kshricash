@@ -1,5 +1,5 @@
 """
-VasuPay - SMS Service (transactional / DLT)
+Kshricash - SMS Service (transactional / DLT)
 ==========================================
 Thin wrapper around the Kutility SMS HTTP API used for transactional
 notifications (e.g. BBPS payment confirmations). All sends are best-effort:

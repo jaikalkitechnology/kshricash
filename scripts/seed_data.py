@@ -1,5 +1,5 @@
 """
-VasuPay - Mock/Seed Data Script
+Kshricash - Mock/Seed Data Script
 Creates one mock user for each role in the system hierarchy.
 
 Hierarchy:
@@ -86,7 +86,7 @@ def create_mock_users():
                 is_active=True,
                 email_verified=True,
                 phone_verified=True,
-                address="VasuPay HQ, Connaught Place",
+                address="Kshricash HQ, Connaught Place",
                 city="New Delhi",
                 state="Delhi",
                 pincode="110001",
@@ -124,14 +124,14 @@ def create_mock_users():
         # ─────────────────────────────────────────────
         if not entity_exists(db, WhiteLabel, "WL001"):
             wl = WhiteLabel(
-                name="VasuPay White Label",
+                name="Kshricash White Label",
                 code="WL001",
                 domain="whitelabel.vasupay.com",
                 subdomain="whitelabel",
                 contact_person="Rajesh Kumar",
                 email="whitelabel@vasupay.com",
                 phone="9000000002",
-                business_name="VasuPay White Label Pvt Ltd",
+                business_name="Kshricash White Label Pvt Ltd",
                 gst_number="29ABCDE1234F1ZK",
                 pan_number="ABCDE1234F",
                 address="MG Road, Sector 14",
@@ -340,7 +340,7 @@ def create_mock_users():
                 email="partner@vasupay.com",
                 phone="9000000005",
                 business_name="Lucknow City Services",
-                shop_name="VasuPay Partner Hub",
+                shop_name="Kshricash Partner Hub",
                 address="Aminabad Market",
                 shop_address="Shop 12, Aminabad Complex",
                 city="Lucknow",
@@ -410,7 +410,7 @@ def create_mock_users():
                 code="RT001",
                 email="retailer@vasupay.com",
                 phone="9000000006",
-                shop_name="VasuPay Digital Seva",
+                shop_name="Kshricash Digital Seva",
                 shop_type="DIGITAL_SERVICES",
                 address="Shop 5, Main Market",
                 city="Lucknow",
@@ -669,7 +669,7 @@ def print_summary():
 
 
 if __name__ == "__main__":
-    print("VasuPay - Seeding Mock Role Users")
+    print("Kshricash - Seeding Mock Role Users")
     print("=" * 40)
     create_tables()
     create_mock_users()

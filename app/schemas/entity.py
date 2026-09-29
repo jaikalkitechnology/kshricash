@@ -1,5 +1,5 @@
 """
-VasuPay - Entity Hierarchy Schemas
+Kshricash - Entity Hierarchy Schemas
 Pydantic models for entity management, hierarchy operations, KYC, and services
 """
 

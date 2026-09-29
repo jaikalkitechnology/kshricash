@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * VasuPay API smoke test — validates the endpoints the React frontend calls
+ * Kshricash API smoke test — validates the endpoints the React frontend calls
  * against their expected response shapes. Run it where the network can reach
  * the API (your machine / server), NOT inside a restricted sandbox.
  *
@@ -61,7 +61,7 @@ function expectKeys(label, obj, keys) {
 }
 
 async function main() {
-  console.log(`\nVasuPay API smoke test → ${C.y}${BASE_URL}${C.x}\n`);
+  console.log(`\nKshricash API smoke test → ${C.y}${BASE_URL}${C.x}\n`);
 
   if (!phone || !password) {
     bad("Missing credentials. Pass --phone <phone> --password <password> (or PHONE/PASSWORD env).");
