@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   VASU PAY DESIGN SYSTEM
+   Source of truth: designed/vasu-pay-design.html
+   Brand: deep emerald-teal (trust + prosperity) + warm saffron
+   coral (energy + India) on a warm cream base.
+   All colors are HSL (shadcn/ui requirement).
+   ============================================================ */
+
+@layer base {
+  :root {
+    /* Surfaces — warm cream base / paper cards */
+    --background: 39 52% 96%;          /* cream     #FAF6EF */
+    --foreground: 180 27% 8%;          /* ink       #0F1A1A */
+
+    --card: 0 0% 100%;                 /* paper     #FFFFFF */
+    --card-foreground: 180 27% 8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 180 27% 8%;
+
+    /* Primary — emerald teal */
+    --primary: 172 68% 28%;            /* vasu-green #17786B */
+    --primary-foreground: 39 52% 96%;  /* cream */
+    --primary-light: 165 43% 60%;      /* vasu-mint #6FC5B0 */
+    --primary-dark: 174 73% 14%;       /* vasu-deep #0A3F3A */
+
+    /* Secondary — soft warm */
+    --secondary: 40 41% 91%;           /* cream-dark #F2ECE0 */
+    --secondary-foreground: 169 12% 26%; /* graphite #3A4A47 */
+
+    /* Accent — saffron coral */
+    --accent: 16 100% 60%;             /* saffron   #FF6B35 */
+    --accent-foreground: 0 0% 100%;
+    --accent-light: 17 100% 74%;       /* saffron-light #FFA07A */
+    --accent-dark: 14 90% 52%;
+
+    /* Semantic */
+    --success: 158 59% 41%;            /* #2BA678 */
+    --success-foreground: 0 0% 100%;
+    --warning: 39 77% 56%;             /* gold #E5A93A */
+    --warning-foreground: 180 27% 8%;
+    --destructive: 0 66% 57%;          /* danger #D94848 */
+    --destructive-foreground: 0 0% 100%;
+
+    --muted: 40 38% 93%;
+    --muted-foreground: 169 10% 40%;   /* stone #7A8784 */
+
+    --border: 150 16% 85%;             /* warm mist */
+    --input: 150 16% 88%;
+    --ring: 172 68% 28%;
+
+    --radius: 0.875rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(174 73% 14%), hsl(172 68% 28%));
+    --gradient-accent: linear-gradient(135deg, hsl(16 100% 60%), hsl(17 100% 74%));
+    --gradient-hero: linear-gradient(135deg, hsl(174 73% 14%) 0%, hsl(172 68% 28%) 50%, hsl(165 43% 60%) 100%);
+
+    /* Shadows — emerald-tinted */
+    --shadow-sm: 0 2px 12px hsl(174 73% 14% / 0.06);
+    --shadow-md: 0 4px 20px hsl(174 73% 14% / 0.10);
+    --shadow-lg: 0 10px 36px hsl(174 73% 14% / 0.14);
+    --shadow-glow: 0 0 28px hsl(16 100% 60% / 0.30);
+
+    /* Sidebar — deep teal */
+    --sidebar-background: 174 73% 14%; /* vasu-deep */
+    --sidebar-foreground: 164 42% 84%; /* vasu-pale */
+    --sidebar-primary: 16 100% 60%;    /* saffron (active) */
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 174 73% 20%;     /* vasu-teal (hover) */
+    --sidebar-accent-foreground: 39 52% 96%;
+    --sidebar-border: 174 50% 22%;
+    --sidebar-ring: 16 100% 60%;
+  }
+
+  .dark {
+    --background: 180 30% 7%;
+    --foreground: 164 30% 90%;
+
+    --card: 178 28% 11%;
+    --card-foreground: 164 30% 90%;
+
+    --popover: 178 28% 11%;
+    --popover-foreground: 164 30% 90%;
+
+    --primary: 165 50% 50%;
+    --primary-foreground: 180 40% 8%;
+    --primary-light: 165 43% 62%;
+    --primary-dark: 172 60% 30%;
+
+    --secondary: 178 20% 16%;
+    --secondary-foreground: 164 30% 90%;
+
+    --accent: 16 100% 62%;
+    --accent-foreground: 0 0% 100%;
+    --accent-light: 17 100% 74%;
+    --accent-dark: 14 85% 52%;
+
+    --success: 158 55% 46%;
+    --success-foreground: 0 0% 100%;
+    --warning: 39 80% 60%;
+    --warning-foreground: 180 27% 8%;
+    --destructive: 0 65% 58%;
+    --destructive-foreground: 0 0% 100%;
+
+    --muted: 178 18% 18%;
+    --muted-foreground: 165 12% 62%;
+
+    --border: 178 20% 20%;
+    --input: 178 20% 18%;
+    --ring: 165 50% 50%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(174 73% 14%), hsl(172 60% 34%));
+    --gradient-accent: linear-gradient(135deg, hsl(16 100% 62%), hsl(17 100% 74%));
+    --gradient-hero: linear-gradient(135deg, hsl(180 40% 9%) 0%, hsl(172 60% 24%) 50%, hsl(165 50% 40%) 100%);
+
+    --shadow-sm: 0 2px 12px hsl(0 0% 0% / 0.25);
+    --shadow-md: 0 4px 20px hsl(0 0% 0% / 0.35);
+    --shadow-lg: 0 10px 36px hsl(0 0% 0% / 0.45);
+    --shadow-glow: 0 0 28px hsl(16 100% 62% / 0.40);
+
+    --sidebar-background: 180 40% 6%;
+    --sidebar-foreground: 164 30% 82%;
+    --sidebar-primary: 16 100% 62%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 174 50% 16%;
+    --sidebar-accent-foreground: 164 42% 84%;
+    --sidebar-border: 174 40% 16%;
+    --sidebar-ring: 16 100% 62%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Display serif for headings (Fraunces) per design system */
+  h1, h2, h3 {
+    @apply font-display tracking-tight;
+  }
+}
+
+@layer components {
+  /* Warm radial brand backdrop (use on public / landing surfaces) */
+  .vasu-bg {
+    background-color: hsl(var(--background));
+    background-image:
+      radial-gradient(circle at 20% 20%, hsl(165 43% 60% / 0.15), transparent 50%),
+      radial-gradient(circle at 80% 80%, hsl(16 100% 60% / 0.08), transparent 50%);
+  }
+
+  .text-gradient-hero {
+    background: var(--gradient-hero);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
