@@ -94,8 +94,8 @@ const Footer = () => {
                 <div>
                   <span className="font-semibold text-background">Regd. Address:</span>
                   <p className="mt-1">
-                    Sh N B1/a, H N 01, Ground, Mahavir Nagar, Deepak Hos, Mira Road,
-                    Thane, Maharashtra, India, 401107
+                    Shop No. B-2, First Floor, Mahavir Nagar, Deepak Hospital Road Lane,
+                    Mira Road, Thane, Maharashtra, India, 401107
                   </p>
                 </div>
               </li>

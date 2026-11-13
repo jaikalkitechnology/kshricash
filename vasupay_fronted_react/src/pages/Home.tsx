@@ -485,7 +485,7 @@ const Home = () => {
               </div>
               <h3 className="font-semibold text-foreground mb-2">Visit Us</h3>
               <p className="text-muted-foreground text-sm">
-                Sh N B1/a, H N 01, Ground,<br /> Mahavir Nagar, Deepak Hos, Mira Road, Thane, Maharashtra, India, 401107
+                Shop No. B-2, First Floor,<br /> Mahavir Nagar, Deepak Hospital Road Lane, Mira Road, Thane, Maharashtra, India, 401107
               </p>
             </Card> */}
           </div>
