@@ -114,9 +114,9 @@ const PrivacyPolicy = () => {
                 <p className="font-medium text-foreground mb-1">Registered Office Address:</p>
                 <p className="text-muted-foreground">
                   Paramvasu Technologies Private Limited<br />
-                  SH N B1/A, H N 01, Ground, Mahavir Nagar,<br />
-                  Deepak Hos, Mira Road,<br />
-                  Thane, Maharashtra - 401107.
+                  Shop No. B-2, First Floor, Mahavir Nagar,<br />
+                  Deepak Hospital Road Lane, Mira Road,<br />
+                  Thane, Maharashtra, India, 401107
                 </p>
               </div>
             </div>
